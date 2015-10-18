@@ -1,0 +1,248 @@
+{
+	"name": "Witches",
+	"description": "",
+	"extraClasses": ["generated", "witch-trait"],
+	"tables": [
+		{
+			"title": "The witch is...",
+			"value": [
+				"A femme fatale.",
+				"The wife of a farmer, fisherman, or miner.",
+				"The wife of a soldier.",
+				"An old seamstress or weaver.",
+				"A peasant girl.",
+				"A noble woman.",
+				"A slave or servant.",
+				"An attractive shopkeeper.",
+				"A stern barmaid.",
+				"An old fortune teller.",
+				"A talented dancer or singer.",
+				"A heretical priestess.",
+				"An herbalist or healer.",
+				"A skilled hunter.",
+				"A very young girl",
+				"The daughter of a thief.",
+				"The daughter of a sailor.",
+				"An old crone.",
+				"An old widow.",
+				"An attractive young widow."
+			]
+		},
+		{
+			"title": "The witch learned her craft from...",
+			"value": [
+				"A fellow witch who kidnapped her as a young girl.",
+				"A fellow witch who aided her in a time of need.",
+				"A neighbor.",
+				"Her mother.",
+				"Her older sister.",
+				"Her grandmother.",
+				"Books of forbidden lore.",
+				"Communication with the spirits of the dead.",
+				"Consorting with a fiend.",
+				"Participating in bacchanalian fey orgies."
+			]
+		},
+		{
+			"title": "The witch specializes in...",
+			"value": [
+				"Charms.",
+				"Clairvoyance.",
+				"Communing with the dead.",
+				"Conjuring evil spirits.",
+				"Curses.",
+				"Demonology.",
+				"Enchantments.",
+				"Herbalism.",
+				"Hexes.",
+				"Poisons.",
+				"Potions.",
+				"Prophecies."
+			]
+		},
+		{
+			"title": "For coin or barter, the witch will...",
+			"value": [
+				"Read your palm.",
+				"Gaze into her crystal ball.",
+				"Contact a dead relative or friend.",
+				"Place a hex on an enemy.",
+				"Give you a piece of forbidden magical lore.",
+				"Enchant an item.",
+				"Curse an item.",
+				"Prepare an herbal remedy.",
+				"Prepare a potion.",
+				"Give you an old family recipe."
+			]
+		},
+		{
+			"title": "The witch is seeking...",
+			"value": [
+				"The means to summon a fiend.",
+				"The means to control a fiend.",
+				"Eternal youth and beauty.",
+				"The soul of a specific person.",
+				"Vengeance against a powerful person.",
+				"A long lost recipe.",
+				"Instructions for a powerful ritual.",
+				"The wand of a legendary witch or wizard.",
+				"The staff of an ancient witch or wizard.",
+				"The meaning of a cryptic prophecy.",
+				"A baby or young child to steal.",
+				"A baby or young child to eat."
+			]
+		},
+		{
+			"title": "The witch has uncovered dark secrets. She cannot be killed by...",
+			"value": [
+				"Hanging or strangulation.",
+				"Drowning.",
+				"Burning.",
+				"Disease.",
+				"Poisoning.",
+				"The hand of a mortal man.",
+				"Falling from a great height.",
+				"Old age."
+			]
+		},
+		{
+			"title": "The witch prefers to travel by...",
+			"value": [
+				"Flying broomstick.",
+				"Flying mount (giant owl or hippogriff).",
+				"Horseback.",
+				"Walking.",
+				{
+					"template": "Transforming into a {beast}",
+					"beast": [
+						"bat",
+						"cat",
+						"fox",
+						"horse",
+						"owl",
+						"rat",
+						"raven",
+						"wolf"
+					]
+				},
+				"Teleportation."
+			]
+		},
+		{
+			"title": "The witch’s home is...",
+			"value": [
+				"In a cave.",
+				"In a swamp.",
+				"On an island.",
+				"Beneath a large tree in a forest.",
+				"In a cottage in the woods.",
+				"Hidden in the mountains.",
+				"In a quiet village.",
+				"Just outside a quiet village.",
+				"Down a dark alley in the city.",
+				"In the castle or palace of a lord."
+			]
+		},
+		{
+			"title": "The witch has...",
+			"value": [
+				"A large wart on her nose.",
+				"An oversized, crooked nose.",
+				"A cute little button nose.",
+				"A beauty mark on her cheek.",
+				"A hairy mole on her cheek.",
+				"A jagged scar on her cheek.",
+				"An obnoxious cackling laugh.",
+				"A hideous belting laugh.",
+				"A nervous twittering laugh.",
+				"Long straggly hair.",
+				"Long beautiful hair.",
+				"Her hair pulled up."
+			]
+		},
+		{
+			"title": "The witch's brew in the cauldron contains...",
+			"value": [
+				"Eye of newt.",
+				"Toe of frog.",
+				"Wool of bat.",
+				"Tongue of dog.",
+				"Adder's fork.",
+				"Blind-worm's sting.",
+				"Lizard's leg.",
+				"Howlet's wing.",
+				"Monkey's paw.",
+				"Pint of blood.",
+				"Pound of flesh.",
+				"Cup of mud.",
+				"Beak of duck.",
+				"Housecat's tail.",
+				"Glob of mold.",
+				"Rusty nail.",
+				"Garlic bulb.",
+				"Cob of corn.",
+				"Stirge's foot.",
+				"Dryad's thorn."
+			]
+		},
+		{
+			"title": "The witch is brewing...",
+			"value": [
+				"A love potion.",
+				"A fertility tonic.",
+				"A magical cure-all.",
+				"A terrible poison.",
+				"A component for a summoning ritual.",
+				"A component for a necromantic ritual.",
+				"A component for a polymorphing hex.",
+				"A component for a beguiling charm."
+			]
+		},
+		{
+			"title": "The witch’s familiar is...",
+			"value": [
+				{
+					"template": "An elemental spirit of {element}",
+					"element": [ "air", "earth", "fire", "ice", "mud", "storm", "stone", "water" ]
+				},
+				{
+					"template": "A fey spirit; {spirit}",
+					"spirit": [ "animated toadstool", "pixie", "sprite", "talking songbird" ]
+				},
+				{
+					"template": "A fiendish spirit; {spirit}",
+					"spirit": [ "demon trapped in a book", "devil trapped in a gem", "imp", "quasit" ]
+				},
+				{
+					"template": "An undead creature; {undead}",
+					"undead": [ "crawling crawl", "disembodied voice", "floating skull", "formless ghost" ]
+				}, 
+				"A bat.",
+				"A cat.",
+				"An owl.",
+				"A snake.",
+				"A spider.",
+				"A raven.",
+				"A rat.",
+				"A toad."
+			]
+		},
+		{
+			"title": "The witch’s familiar’s manner is...",
+			"value": [
+				"Calculating.",
+				"Clever.",
+				"Coy.",
+				"Cruel.",
+				"Gleeful.",
+				"Grumpy.",
+				"Insolent.",
+				"Shy.",
+				"Skittish.",
+				"Surly.",
+				"Suspicious.",
+				"Talkative"
+			]
+		}
+	]
+}
